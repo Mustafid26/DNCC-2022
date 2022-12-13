@@ -1,0 +1,16 @@
+.carousel-caption {
+  bottom: 350px;
+  z-index: 2;
+}
+.carousel-caption h5 {
+  font-weight: 700;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+.carousel-caption p {
+  margin: auto;
+  font-size: 18px;
+  line-height: 1, 9;
+}

@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+.container {
+    margin: 20px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Rubik', sans-serif;  
+    font-weight: 200px;
+    border: 2px solid gray;
+    padding: 10px 20px;
+    margin: 20px 30px; 
+    border-radius: 10px; /* agar samping melengkung */
+    transition: 0.5s; /*transisi animasi*/
+}
+a:active {
+    background-color: cyan;
+    transform: scale(0.9); /* mengubah elemen */
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table {
+    width: 500px;
+    height: 200px;
+}
+th {
+    background-color: black;
+    font-family: 'Rubik', sans-serif;  
+    color: white;
+}
+td {
+    text-align: center;
+    vertical-align: baseline; /* untuk mengatur jarak vertikal */
+    font-family: 'Rubik', sans-serif;  
+}
+tr:nth-child(even){ /*menyeleksi genap ganjil atau angka*/
+    background-color: gray ;
+}
+.container2{
+    width: fit-content;
+    height: fit-content;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+}
+input, select, button {
+    width: 500px;
+    margin: 10px 0;
+    display: block;
+    border: 1px solid gainsboro;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+button {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:active{
+    transform: scale(0.9);
+}
+button:hover {
+    transform: rotate(10deg);
+}
+.container3{
+    border: 7px solid black;
+    width: 90%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 100px;
+    height: 100px;
+}
+.box1{
+    background-color: yellow;
+}
+.box2{
+    background-color: blue;
+}
+.box3{
+    background-color: lightblue;
+}
+.box4{
+    background-color: red;
+    display: none;
+}
+.box5{
+    background-color: blueviolet;
+    display: none;
+}
