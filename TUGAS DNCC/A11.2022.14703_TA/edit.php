@@ -1,9 +1,9 @@
 <?php
 require_once __DIR__ ."/function.php"; 
 
-if (isset($_GET['id_tugas'])){
-  $id = $_GET['id_tugas'];
-  $data = ambilSatuData($id);
+if (isset($_GET['id'])){
+  $id = $_GET['id'];
+  $data = ambilSatuData($id)->fetch();
 }else {
   header("location: todolist.php");
 }

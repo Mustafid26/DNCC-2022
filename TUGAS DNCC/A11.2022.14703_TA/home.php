@@ -71,64 +71,78 @@
         <!--Navbar End-->
       </div>
       <div class="card-body">
-        <!--Carousel-->
-        <div
-          id="carouselExampleIndicators"
-          class="carousel slide"
-          data-bs-ride="true"
-        >
-          <div class="carousel-indicators">
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="0"
-              class="active"
-              aria-current="true"
-              aria-label="Slide 1"
-            ></button>
-            <button
-              type="button"
-              data-bs-target="#carouselExampleIndicators"
-              data-bs-slide-to="1"
-              aria-label="Slide 2"
-            ></button>
+    <!--Carousel-->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="true"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="media/home.png"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption">
+            <h5>Buat List Tugas Kamu!</h5>
+            <p>
+              Kini membuat list tugas hanya dengan klik-klik, yuk buat sekarang !
+            </p>
+            <button class="btn"><a href="todolist.php" class="btn btn-primary"><span>Yuk Buat!</span></a></button>
           </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="media/home.png" class="d-block w-100" alt="..." />
-              <div class="carousel-caption">
-                <h5>Buat List Tugas Kamu !</h5>
-                <p>
-                  Kini membuat list hanya dengan klik klik. Saatnya membuat list
-                  agar tidak lupa dengan tugas!
-                </p>
-                <p>
-                  <button class="btn"><a href="todolist.php" class="btn btn-primary"><span>Yuk Buat!</span></a></button>
-                </p>
-              </div>
-            </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="media/about.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption">
+            <h5>Buat List Tugas Kamu!</h5>
+            <p>
+              Kini membuat list tugas hanya dengan klik-klik, yuk buat sekarang !
+            </p>
+            <button class="btn"><a href="todolist.php" class="btn btn-primary"><span>Yuk Buat!</span></a></button>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleIndicators"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
         </div>
       </div>
-      <!--Carousel End-->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!--Carousel End-->
       <div class="card-footer text-muted">Mustafid Kaisalana 2022</div>
     </div>
     <script
